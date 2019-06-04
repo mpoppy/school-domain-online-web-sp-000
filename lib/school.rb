@@ -23,6 +23,6 @@ class School
   end
 
   def sort()
-    @roster.sort_by {|key, value| key}.to_h
+    @roster.sort_by {|value| key}.to_h
   end
 end
